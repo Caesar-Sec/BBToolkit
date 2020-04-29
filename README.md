@@ -19,12 +19,16 @@ My own personal set of tooks I use for bug bounty hunting.
   <li>FUFF</li>
   <li>Meg+</li>
   <li>XSStrike</li>
+  <li>SQLmap</li>
+  <li>wpscan</li>
+  <li>asnlookup</li>
+  <li>nmap</li>
 </ul>
 
 
 # Installing
  <ul>
-  <li>git clone </li>
+  <li>git clone https://github.com/Caesar-Sec/BBToolkit.git</li>
   <li>cd BBToolkit</li>
   <li>chmod +x install.sh</li>
  <li>./install.sh</li>
