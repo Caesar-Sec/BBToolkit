@@ -2,7 +2,8 @@
 
 My own personal set of tooks I use for bug bounty hunting
 
-Includes:
+# Tools
+
  <ul>
   <li>Dirsearch</li>
   <li>Seclist</li>
