@@ -3,7 +3,7 @@
 My own personal set of tooks I use for bug bounty hunting
 
 Includes:
-Dirsearch
+"/n"Dirsearch
 Seclist
 JSParser
 LazyS3
