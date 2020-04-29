@@ -1,4 +1,4 @@
-# BB_Toolkit
+# BBToolkit
 
 My own personal set of tooks I use for bug bounty hunting.
 
