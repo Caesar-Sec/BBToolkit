@@ -72,7 +72,6 @@ echo "done"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
-cd ~/tools/
 echo "done"
 
 
@@ -125,5 +124,50 @@ cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
 echo "done"
 
+
+echo "installing hakrawler"
+go get github.com/hakluke/hakrawler
+echo "done"
+
+
+echo "installing eyewitness"
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+cd ~tools/Eyewitness/Pyhton/setup
+./setup.sh
+echo "done"
+cd ~/tools
+
+echo "installing XSStrike"
+git clone https://github.com/s0md3v/XSStrike.git
+echo "done"
+
+echo "installing ffuf"
+go get github.com/ffuf/ffuf
+echo "done"
+
+
+echo "installing meg+"
+git clone https://github.com/EdOverflow/megplus.git
+cd megplus
+go get github.com/tomnomnom/meg
+go get github.com/tomnomnom/waybackurls
+git clone https://github.com/aboul3la/Sublist3r.git
+# See https://github.com/aboul3la/Sublist3r#dependencies
+cd ../Sublist3r
+sudo pip install -r requirements.txt
+cd ~/tools
+echo "done"
+
+echo "installing amass"
+sudo apt-get install -y amass
+echo "done"
+
+echo "installing subfinder"
+go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+echo "done"
+
+
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 echo -e "Now go forth and break other peoples stuff"
+cho -e "If you intend to not use gio commnet out lines 65-68 on megplus/blob/master/megplus.sh"
+
