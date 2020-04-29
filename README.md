@@ -1,6 +1,6 @@
 # BB_Toolkit
 
-My own personal set of tooks I use for bug bounty hunting
+My own personal set of tooks I use for bug bounty hunting.
 
 # Tools
 
@@ -19,4 +19,13 @@ My own personal set of tooks I use for bug bounty hunting
   <li>FUFF</li>
   <li>Meg+</li>
   <li>XSStrike+</li>
+</ul>
+
+
+# Installing
+ <ul>
+  <li>git clone </li>
+  <li>cd BBToolkit</li>
+  <li>chmod +x install.sh</li>
+ <li>./install.sh</li>
 </ul>
