@@ -18,7 +18,7 @@ My own personal set of tooks I use for bug bounty hunting.
   <li>Eyewitness</li>
   <li>FUFF</li>
   <li>Meg+</li>
-  <li>XSStrike+</li>
+  <li>XSStrike</li>
 </ul>
 
 
