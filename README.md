@@ -23,6 +23,7 @@ My own personal set of tooks I use for bug bounty hunting.
   <li>wpscan</li>
   <li>asnlookup</li>
   <li>nmap</li>
+ <li>gau</li>
 </ul>
 
 
