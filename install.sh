@@ -166,6 +166,11 @@ echo "installing subfinder"
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 echo "done"
 
+echo "installing gau (getallurls)"
+GO111MODULE=on go get -u -v github.com/lc/gau
+echo "done"
+
+
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 echo -e "Now go forth and break other peoples stuff"
