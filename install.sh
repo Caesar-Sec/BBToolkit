@@ -146,16 +146,8 @@ go get github.com/ffuf/ffuf
 echo "done"
 
 
-echo "installing meg+"
-git clone https://github.com/EdOverflow/megplus.git
-cd megplus
-go get github.com/tomnomnom/meg
-go get github.com/tomnomnom/waybackurls
-git clone https://github.com/aboul3la/Sublist3r.git
-# See https://github.com/aboul3la/Sublist3r#dependencies
-cd ../Sublist3r
-sudo pip install -r requirements.txt
-cd ~/tools
+echo "installing meg"
+go get -u github.com/tomnomnom/meg
 echo "done"
 
 echo "installing amass"
