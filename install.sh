@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y jq
