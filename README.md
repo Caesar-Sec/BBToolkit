@@ -6,24 +6,26 @@ My own personal set of tooks I use for bug bounty hunting.
 
  <ul>
   <li>Dirsearch</li>
+  <li>Chromium</li>
   <li>Seclist</li>
   <li>JSParser</li>
   <li>LazyS3</li>
   <li>Crtndustry</li>
   <li>Massdns</li>
+  <li>Masscan</li>
   <li>Subfinder</li>
   <li>Amass</li>
   <li>Httprobe</li>
   <li>Hakrawler</li>
   <li>Eyewitness</li>
   <li>FFUF</li>
-  <li>Meg+</li>
+  <li>Meg</li>
   <li>XSStrike</li>
   <li>SQLmap</li>
   <li>wpscan</li>
   <li>asnlookup</li>
   <li>nmap</li>
- <li>gau</li>
+  <li>gau</li>
 </ul>
 
 
