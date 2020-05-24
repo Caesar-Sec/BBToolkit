@@ -102,6 +102,11 @@ make
 cd ~/tools/
 echo "done"
 
+echo "installing Masscan"
+git clone https://github.com/robertdavidgraham/masscan
+cd masscan
+make
+
 echo "installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
 cd ~/tools/asnlookup
