@@ -16,7 +16,7 @@ My own personal set of tooks I use for bug bounty hunting.
   <li>Httprobe</li>
   <li>Hakrawler</li>
   <li>Eyewitness</li>
-  <li>FUFF</li>
+  <li>FFUF</li>
   <li>Meg+</li>
   <li>XSStrike</li>
   <li>SQLmap</li>
