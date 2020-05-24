@@ -106,6 +106,7 @@ echo "installing Masscan"
 git clone https://github.com/robertdavidgraham/masscan
 cd masscan
 make
+cd ~/tools/
 
 echo "installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
@@ -156,6 +157,8 @@ echo "installing ffuf"
 go get github.com/ffuf/ffuf
 echo "done"
 
+echo "installing Chromium"
+sudo apt-get install chromium-browser
 
 echo "installing meg"
 go get -u github.com/tomnomnom/meg
