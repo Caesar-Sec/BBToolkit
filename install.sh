@@ -159,6 +159,7 @@ echo "done"
 
 echo "installing Chromium"
 sudo apt-get install chromium-browser
+echo "done"
 
 echo "installing meg"
 go get -u github.com/tomnomnom/meg
