@@ -157,6 +157,9 @@ echo "installing gau (getallurls)"
 GO111MODULE=on go get -u -v github.com/lc/gau
 echo "done"
 
+echo "Installing assetfinder" 
+go get -u github.com/tomnomnom/assetfinder
+echo "done"
 
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
