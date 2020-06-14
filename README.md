@@ -22,6 +22,7 @@ My own personal set of tools I use for bug bounty hunting.
   <li>asnlookup</li>
   <li>nmap</li>
   <li>gau</li>
+ <li>assetfinder</li>
 </ul>
 
 
