@@ -69,12 +69,6 @@ sudo python setup.py install
 cd ~/tools/
 echo "done"
 
-echo "installing wpscan"
-git clone https://github.com/wpscanteam/wpscan.git
-cd wpscan*
-sudo gem install bundler && bundle install --without test
-cd ~/tools/
-echo "done"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
@@ -141,14 +135,6 @@ echo "installing hakrawler"
 go get github.com/hakluke/hakrawler
 echo "done"
 
-
-echo "installing eyewitness"
-git clone https://github.com/FortyNorthSecurity/EyeWitness.git
-cd ~tools/Eyewitness/Pyhton/setup
-./setup.sh
-echo "done"
-cd ~/tools
-
 echo "installing XSStrike"
 git clone https://github.com/s0md3v/XSStrike.git
 echo "done"
@@ -161,17 +147,11 @@ echo "installing Chromium"
 sudo apt-get install chromium-browser
 echo "done"
 
-echo "installing meg"
-go get -u github.com/tomnomnom/meg
-echo "done"
 
 echo "installing amass"
 sudo apt-get install -y amass
 echo "done"
 
-echo "installing subfinder"
-go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
-echo "done"
 
 echo "installing gau (getallurls)"
 GO111MODULE=on go get -u -v github.com/lc/gau
@@ -181,5 +161,4 @@ echo "done"
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 echo -e "Now go forth and break other peoples stuff"
-echo -e "If you intend not to use gio comment out lines 65-68 on megplus/blob/master/megplus.sh"
 
