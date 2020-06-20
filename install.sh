@@ -161,6 +161,35 @@ echo "Installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
 echo "done"
 
+echo "Installing unfurl" 
+go get -u github.com/tomnomnom/unfurl
+echo "done"
+
+echo "Installing DNSCewl" 
+git clone https://github.com/codingo/DNSCewl.git
+cd DNSCewl
+make
+cd ..
+echo "done"
+
+echo "Installing GoWitness" 
+go get -u github.com/sensepost/gowitness
+echo "done"
+
+
+echo "Installing Subfinder" 
+go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+echo "done"
+
+
+echo "Installing bucket_finder" 
+git clone https://github.com/FishermansEnemy/bucket_finder.git
+echo "done"
+
+
+echo "Installing teh_s3_bucketeers" 
+git clone https://github.com/tomdev/teh_s3_bucketeers.git
+echo "done"
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 echo -e "Now go forth and break other peoples stuff"
