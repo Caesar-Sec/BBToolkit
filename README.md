@@ -22,7 +22,8 @@ My own personal set of tools I use for bug bounty hunting.
   <li>asnlookup</li>
   <li>nmap</li>
   <li>gau</li>
- <li>assetfinder</li>
+  <li>assetfinder</li>
+ 
 </ul>
 
 
@@ -33,3 +34,14 @@ My own personal set of tools I use for bug bounty hunting.
   <li>chmod +x install.sh</li>
  <li>./install.sh</li>
 </ul>
+
+# To Add
+<ul>
+ <li>Unfurl</li>
+ <li>DNSCewl</li>
+ <li>GoWitness</li>
+ <li>Bucketing tool (like Bucketfinder)</li>
+ <li>Subfinder</li>
+ 
+</ul>
+
