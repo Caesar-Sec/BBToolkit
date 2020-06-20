@@ -23,7 +23,12 @@ My own personal set of tools I use for bug bounty hunting.
   <li>nmap</li>
   <li>gau</li>
   <li>assetfinder</li>
- 
+  <li>GoWitness</li>
+  <li>unfurl</li>
+  <li>Bucket_finder</li>
+  <li>teh_s3_bucketeer</li>
+  <li>DNSCewl</li>
+  <li>subfinder</li> 
 </ul>
 
 
