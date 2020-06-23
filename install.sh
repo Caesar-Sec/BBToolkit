@@ -63,8 +63,8 @@ cd ~/tools/
 
 
 echo "installing JSParser"
-git clone https://github.com/nahamsec/JSParser.git
-cd JSParser*
+git clone https://github.com/SMHTahsin33/JSParser.git
+cd JSParser
 sudo python setup.py install
 cd ~/tools/
 echo "done"
