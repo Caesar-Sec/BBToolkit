@@ -24,7 +24,6 @@ My own personal set of tools I use for bug bounty hunting.
   <li>assetfinder</li>
   <li>GoWitness</li>
   <li>unfurl</li>
-  <li>DNSCewl</li>
   <li>subfinder</li>
  <li>LinkFinder</li>
 </ul>
