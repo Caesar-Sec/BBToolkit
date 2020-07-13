@@ -168,12 +168,6 @@ echo "Installing unfurl"
 go get -u github.com/tomnomnom/unfurl
 echo "done"
 
-echo "Installing DNSCewl" 
-git clone https://github.com/codingo/DNSCewl.git
-cd DNSCewl
-make
-cd ..
-echo "done"
 
 echo "Installing GoWitness" 
 go get -u github.com/sensepost/gowitness
