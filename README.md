@@ -10,7 +10,6 @@ My own personal set of tools I use for bug bounty hunting.
   <li>Seclist</li>
   <li>JSParser</li>
   <li>LazyS3</li>
-  <li>Crtndustry</li>
   <li>Massdns</li>
   <li>Masscan</li>
   <li>Amass</li>
@@ -25,10 +24,9 @@ My own personal set of tools I use for bug bounty hunting.
   <li>assetfinder</li>
   <li>GoWitness</li>
   <li>unfurl</li>
-  <li>Bucket_finder</li>
-  <li>teh_s3_bucketeer</li>
   <li>DNSCewl</li>
-  <li>subfinder</li> 
+  <li>subfinder</li>
+ <li>LinkFinder</li>
 </ul>
 
 
