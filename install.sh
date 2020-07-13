@@ -19,7 +19,13 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 
 
-
+echo "installing bash_profile aliases"
+git clone https://github.com/Caesar-Sec/recon_profile.git
+cd recon_profile
+cat .bash_profile >> ~/.bash_profile
+source ~/.bash_profile
+cd
+echo "done"
 
 #install go
 if [[ -z "$GOPATH" ]];then
