@@ -117,8 +117,11 @@ echo "installing waybackurls"
 go get github.com/tomnomnom/waybackurls
 echo "done"
 
-echo "installing crtndstry"
-git clone https://github.com/nahamsec/crtndstry.git
+echo "installing LinkFinder"
+git clone https://github.com/GerbenJavado/LinkFinder.git
+cd LinkFinder
+python setup.py install
+cd ..
 echo "done"
 
 echo "downloading Seclists"
@@ -182,14 +185,6 @@ go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 echo "done"
 
 
-echo "Installing bucket_finder" 
-git clone https://github.com/FishermansEnemy/bucket_finder.git
-echo "done"
-
-
-echo "Installing teh_s3_bucketeers" 
-git clone https://github.com/tomdev/teh_s3_bucketeers.git
-echo "done"
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 echo -e "Now go forth and break other peoples stuff"
