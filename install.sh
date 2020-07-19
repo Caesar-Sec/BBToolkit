@@ -37,7 +37,7 @@ select choice in "${choices[@]}"; do
                 yes)
 
 					echo "Installing Golang"
-					wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
+					wget https://dl.google.com/go/go1.14.6.linux-amd64.tar.gz
 					sudo tar -xvf go1.13.4.linux-amd64.tar.gz
 					sudo mv go /usr/local
 					export GOROOT=/usr/local/go
@@ -46,10 +46,7 @@ select choice in "${choices[@]}"; do
 					echo 'export GOROOT=/usr/local/go' >> ~/.bash_profile
 					echo 'export GOPATH=$HOME/go'	>> ~/.bash_profile			
 					echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bash_profile
-					echo 'export GOPATH=$HOME/go' >> ~/.bashrc
-					echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
 					source ~/.bash_profile
-					source ~/.bashrc
 					sleep 1
 					break
 					;;
