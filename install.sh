@@ -43,9 +43,11 @@ select choice in "${choices[@]}"; do
 					export GOROOT=/usr/local/go
 					export GOPATH=$HOME/go
 					export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+					export GOBIN=$HOME/go/bin
 					echo 'export GOROOT=/usr/local/go' >> ~/.bash_profile
 					echo 'export GOPATH=$HOME/go'	>> ~/.bash_profile			
 					echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bash_profile
+					echo 'export GOBIN=$HOME/go/bin' >> ~/.bash_profile
 					source ~/.bash_profile
 					sleep 1
 					break
